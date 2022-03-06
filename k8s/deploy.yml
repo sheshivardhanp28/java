@@ -6,7 +6,7 @@ metadata:
     app: dep1
 spec:
   replicas: 2
-  selectors:
+  selector:
     matchLabels:  
       app: dep1
   template:
