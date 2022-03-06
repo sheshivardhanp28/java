@@ -10,9 +10,10 @@ spec:
     matchLabels:  
       app: dep1
   template:
-    labels:
-      app: dep1
+    metadata:
+      labels:
+        app: dep1
     spec:
       containers:
       - name: c1
-        image: R_IMAGE      
+        image: R_IMAGE
